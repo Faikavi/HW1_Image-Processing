@@ -32,7 +32,6 @@ def list_to_2D_list(lists, list_2D, col, row):
         list_2D.append(inner_list)
     return list_2D
 
-
 def copy(lists):
     copy_list = []
     for i in range(len(lists)):
@@ -41,7 +40,6 @@ def copy(lists):
             inner_list.append(lists[i][j])
         copy_list.append(inner_list)
     return copy_list
-
 
 def check_miss_pixel(list_img, col, row):
     if len(list_img) != col * row:
